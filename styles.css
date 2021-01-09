@@ -30,9 +30,8 @@ h1 {
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  /* height: 10vh; */
-  display: flex; /*this is  what was missing */
-  flex-flow: column; /*this is  what was missing too*/
+  display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
 }
@@ -41,7 +40,6 @@ h2 {
   background: none;
   border: none;
   font-family: inherit;
-  /* font-size: 1.8rem; */
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
@@ -102,9 +100,6 @@ h2 {
   text-anchor: middle;
 }
 
-.bar {
-  color: red;
-}
 
 .hidden {
   display: none;
