@@ -1,0 +1,66 @@
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet"
+      />
+
+      <link rel="stylesheet" href="styles.css" />
+
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script type="module" defer src="main.js"></script>
+      <!-- <script type="module" defer src="sunburst.js"></script>
+      <script type="module" defer src="scatter.js"></script>
+      <script type="module" defer src="barchart.js"></script> -->
+      <title>Data Visualization With D3.js</title>
+    </head>
+
+    <body>
+      <h1>Data Visualization Using D3.js</h1>
+      <h2>Click on below buttons to see different charts!</h2>
+      <div class="flexbox-btn">
+        <button id="btnSbt" class="btn">Zoomable Sunburst</button>
+        <button id="btnSct" class="btn">Scatterplot Tour</button>
+        <button id="btnBct" class="btn">Bar Chart</button>
+        <button id="all" class="btn">Display All The Charts</button>
+        <button id="refresh" class="btn">Refresh</button>
+      </div>
+      <br />
+
+      <div class="flexbox-container">
+        <div id="sunBurstInfo" class="flexboxItem1">
+          <div class="card1" id="sunburst">
+            <h2>Click a node to zoom in, or the center to zoom out.</h2>
+          </div>
+        </div>
+        <div id="scatter" class="flexboxItem2 card">
+          <h2>
+            X-axis: Sale price of the property; Y-axis: Above ground (grade)
+            living area
+          </h2>
+        </div>
+        <div id="barchart" class="flexboxItem3 card">
+          <h2>
+            X-axis: Height in feet; Y-axis: Height of tallest man-made
+            structures in the world
+          </h2>
+        </div>
+      </div>
+    </body>
+  </html>
+</head>
