@@ -1,4 +1,4 @@
-# DataVisualizationTakeHomeAssignment
+# DataVisualization Using D3.JS
 
 1. Download the zip file
 2. Open the folder in VS Code(preferred)
